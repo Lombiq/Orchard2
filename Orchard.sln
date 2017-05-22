@@ -271,6 +271,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParty", "ThirdParty", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchard.GoogleCloud.Diagnostics.Trace", "src\Orchard.ThirdParty\GoogleCloud\Orchard.GoogleCloud.Diagnostics.Trace\Orchard.GoogleCloud.Diagnostics.Trace.csproj", "{489DD11A-DA96-417C-B6F9-1E5E666C0A97}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orchard.GoogleCloud.HealthCheck", "src\Orchard.ThirdParty\GoogleCloud\Orchard.GoogleCloud.HealthCheck\Orchard.GoogleCloud.HealthCheck.csproj", "{48E4C10B-10ED-4DA0-98BE-9B21ECF95AD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orchard.GoogleCloud.Diagnostics.ErrorReporting", "src\Orchard.ThirdParty\GoogleCloud\Orchard.GoogleCloud.Diagnostics.ErrorReporting\Orchard.GoogleCloud.Diagnostics.ErrorReporting.csproj", "{3E80E080-97BB-4AFA-86C5-CE93E49DE664}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -749,6 +753,14 @@ Global
 		{489DD11A-DA96-417C-B6F9-1E5E666C0A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{489DD11A-DA96-417C-B6F9-1E5E666C0A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{489DD11A-DA96-417C-B6F9-1E5E666C0A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E4C10B-10ED-4DA0-98BE-9B21ECF95AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E4C10B-10ED-4DA0-98BE-9B21ECF95AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E4C10B-10ED-4DA0-98BE-9B21ECF95AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E4C10B-10ED-4DA0-98BE-9B21ECF95AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E80E080-97BB-4AFA-86C5-CE93E49DE664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E80E080-97BB-4AFA-86C5-CE93E49DE664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E80E080-97BB-4AFA-86C5-CE93E49DE664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E80E080-97BB-4AFA-86C5-CE93E49DE664}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -886,5 +898,7 @@ Global
 		{A1B6C857-7844-433E-B28A-9A86600771A2} = {A066395F-6F73-45DC-B5A6-B4E306110DCE}
 		{B3D0C124-EF72-4F7B-AE0C-4C9B17B4668F} = {275E087F-A4E2-4A7B-A924-ED68E3A52086}
 		{489DD11A-DA96-417C-B6F9-1E5E666C0A97} = {B3D0C124-EF72-4F7B-AE0C-4C9B17B4668F}
+		{48E4C10B-10ED-4DA0-98BE-9B21ECF95AD5} = {B3D0C124-EF72-4F7B-AE0C-4C9B17B4668F}
+		{3E80E080-97BB-4AFA-86C5-CE93E49DE664} = {B3D0C124-EF72-4F7B-AE0C-4C9B17B4668F}
 	EndGlobalSection
 EndGlobal

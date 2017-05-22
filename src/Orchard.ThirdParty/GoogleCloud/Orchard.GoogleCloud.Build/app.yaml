@@ -1,0 +1,8 @@
+﻿runtime: aspnetcore
+env: flex
+threadsafe: true
+service: orchardcore
+manual_scaling:
+  instances: 1
+env_variables:
+  service_name: orchardcore
